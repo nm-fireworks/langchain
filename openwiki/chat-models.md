@@ -5,7 +5,7 @@ description: "Document BaseChatModel protocol, input/output handling, streaming,
 tags: [chat-models, llm-integration, streaming, structured-output, model-capabilities, model-initialization]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-28T08:35:20.640Z
+    at: 2026-10-06T08:27:38.861Z
 sources:
   - id: openwiki-source-132f3183693cd9cf79d029a5
     resource: repo://libs/core/langchain_core/language_models/base.py

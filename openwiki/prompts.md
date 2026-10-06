@@ -1,8 +1,8 @@
 ---
 type: "Concept"
-title: "Prompt Templates and Few-Shot Learning"
-description: "Prompt templates define message sequences and variable substitution patterns for chat models. Few-shot learning selects examples dynamically to teach models by example."
-tags: [prompt, template, few-shot, example-selection, variable-substitution, structured-output]
+title: "Prompts: Templates and Formatting"
+description: "Prompt templates define message sequences and variable substitution patterns for language models. The system supports string templates, chat message sequences, few-shot examples with dynamic selection, and structured output schemas."
+tags: [prompt, template, few-shot, example-selection, variable-substitution, structured-output, composition, formatting]
 sources:
   - id: openwiki-source-1f4e0a5b877db4f050f2a34c
     resource: repo://libs/core/langchain_core/example_selectors/base.py
@@ -25,7 +25,7 @@ sources:
 generated: { by: "openwiki/0.5.0", at: "2026-09-03T15:18:34.589Z" }
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-28T08:35:20.640Z
+    at: 2026-10-06T08:27:38.861Z
 ---
 
 ## Overview

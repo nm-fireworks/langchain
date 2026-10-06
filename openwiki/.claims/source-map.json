@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:adec3cd933f5d85a378acc68a23f5f2251c4fbdd90ad0cb72dbb7b21df531c03",
+  "pageVersion": "sha256:3178cdf8987f70a4033e8294c63f823fde40f016ff20af21e2293911d5de9b25",
   "claims": [
     {
       "id": "claim_c71edae5b0f64c8fa79c17ef1aca0f6b",
@@ -164,31 +164,31 @@
         },
         {
           "resource": "repo://libs/core/pyproject.toml",
-          "version": "repo-file-v1:sha256:f2e32a43158f1a189ce6d1941ab80ba4bd2069c2f4e8018f026e9c7ce011634c"
+          "version": "repo-file-v1:sha256:eb5aa1c454f9b4df848d4d782453db06cf31790de048fa9c85ddb567321e9b7a"
         },
         {
           "resource": "repo://libs/langchain_v1/pyproject.toml",
-          "version": "repo-file-v1:sha256:7d66e582e815b6daed6df16445381ec6ff42b79855878c50207fb7a010f53203"
+          "version": "repo-file-v1:sha256:a8c304bb013cec6ea3362021c73026b389db7632d77dfee643238469e6554596"
         }
       ]
     },
     {
       "id": "claim_458d709b604149fa8fb9639025882358",
-      "statement": "LangChain uses a three-layer architecture: langchain-core (v1.6.5) for base abstractions, langchain (v1.4.3) for orchestration and agents, and partners for provider-specific implementations, enabling model interoperability and independent release cycles.",
+      "statement": "LangChain uses a three-layer architecture: langchain-core (v1.6.6) for base abstractions, langchain (v1.4.3) for orchestration and agents, and partners for provider-specific implementations, enabling model interoperability and independent release cycles.",
       "evidence": [
         {
           "resource": "repo://libs/core/pyproject.toml",
-          "version": "repo-file-v1:sha256:f2e32a43158f1a189ce6d1941ab80ba4bd2069c2f4e8018f026e9c7ce011634c"
+          "version": "repo-file-v1:sha256:eb5aa1c454f9b4df848d4d782453db06cf31790de048fa9c85ddb567321e9b7a"
         },
         {
           "resource": "repo://libs/langchain_v1/pyproject.toml",
-          "version": "repo-file-v1:sha256:7d66e582e815b6daed6df16445381ec6ff42b79855878c50207fb7a010f53203"
+          "version": "repo-file-v1:sha256:a8c304bb013cec6ea3362021c73026b389db7632d77dfee643238469e6554596"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-29T08:28:34.635Z"
+    "at": "2026-10-06T08:27:38.861Z"
   }
 }

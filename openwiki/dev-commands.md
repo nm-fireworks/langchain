@@ -20,10 +20,10 @@ sources:
     resource: repo://libs/Makefile
   - id: openwiki-source-a6e669bb11f217c6fbd06670
     resource: repo://libs/partners/anthropic/Makefile
-generated: { by: "openwiki/0.5.0", at: "2026-09-03T15:18:34.589Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-10-06T08:27:38.861Z" }
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-28T08:35:20.640Z
+    at: 2026-10-06T08:27:38.861Z
 ---
 
 ## Overview
@@ -61,8 +61,8 @@ Pre-commit runs automatically on staged files before each commit. To manually tr
 # Run all hooks on all files
 pre-commit run --all-files
 
-# Run a specific hook
-pre-commit run ruff --all-files
+# Run hooks for a specific package (e.g., core)
+pre-commit run core --all-files
 ```
 
 ## Pre-Commit Hooks
